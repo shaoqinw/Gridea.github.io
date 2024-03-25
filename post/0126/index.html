@@ -1,0 +1,183 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>0126 | Gridea</title>
+<link rel="shortcut icon" href="https://Gridea.github.io/favicon.ico?v=1711331514699">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Gridea.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="0126 | Gridea - Atom Feed" href="https://Gridea.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="EDA
+榕铭微开始环境搭建，目标是全量上云
+景略云盒项目成本挑战过大，可能会丢，还在算一些附加成本项
+隧源测试完成了，现在客户这边还没向上汇报，后面怎么做需要BTE考虑下
+ARM的项目基本确定，如果腾讯就那么低的折扣，反正也防不住，就放进来..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Gridea.github.io">
+  <img class="avatar" src="https://Gridea.github.io/images/avatar.png?v=1711331514699" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              0126
+            </h2>
+            <div class="post-info">
+              <span>
+                2024-01-26
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>EDA<br>
+榕铭微开始环境搭建，目标是全量上云<br>
+景略云盒项目成本挑战过大，可能会丢，还在算一些附加成本项<br>
+隧源测试完成了，现在客户这边还没向上汇报，后面怎么做需要BTE考虑下<br>
+ARM的项目基本确定，如果腾讯就那么低的折扣，反正也防不住，就放进来（弹性），我们不打折了</p>
+<p>CAE<br>
+Altair的工作推进，宣传稿、PR采购、大会宣讲（3、9月）<br>
+StarCCM+的按量lic，文档反馈给了BMW，后面跟一下进展<br>
+上汽送hpc8ae的事情前线进行操作</p>
+<p>其他<br>
+酷家乐的ehpc-api对接中，IAAS的事情，等a评审完之后再说<br>
+煊云：u实例测试，预计年后对API，2-3万core<br>
+同花顺的A10释放了，现在主要业务在线下，后续节奏要跟一下<br>
+哈啰准备按量打到包月的32折，之后就不往下走了，已经开始做鲲鹏配置<br>
+物探：专属云的基线，1096</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Gridea.github.io/post/altair/">
+              <h3 class="post-title">
+                Altair
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Gridea.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

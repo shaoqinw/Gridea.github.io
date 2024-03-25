@@ -1,0 +1,177 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ARM中国讨论 | Gridea</title>
+<link rel="shortcut icon" href="https://Gridea.github.io/favicon.ico?v=1711331514699">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Gridea.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="ARM中国讨论 | Gridea - Atom Feed" href="https://Gridea.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="明年货下半年会有回暖
+4个市场：infra（PTG等，网络设备）、carying（mobile）、automotive（自动驾驶）、IOT
+product：ARM IP（99%以上可以售卖到中国）、CPU、NPU投入、物理IP库（28nm以..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Gridea.github.io">
+  <img class="avatar" src="https://Gridea.github.io/images/avatar.png?v=1711331514699" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              ARM中国讨论
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-11-21
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>明年货下半年会有回暖<br>
+4个市场：infra（PTG等，网络设备）、carying（mobile）、automotive（自动驾驶）、IOT<br>
+product：ARM IP（99%以上可以售卖到中国）、CPU、NPU投入、物理IP库（28nm以上成熟工艺国内有大规模生产能力）、方案<br>
+倚天是否会外售？</p>
+<p>资源需求：<br>
+本周：4500core：北京，已报备<br>
+下周：增加500core：北京，有资源<br>
+12月4日：增加到7800core-8000core：北京，125台，库存满足（ebmre7p）<br>
+12月11日-12月24日：增加到13500core，增加部分需要在成都。成都增加（13500-8000）/64约=90台<br>
+12月25日下落到3500core用到一月第一周<br>
+1月8日下落到1500</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Gridea.github.io/post/2022-nian-11-yue-17-ri/">
+              <h3 class="post-title">
+                2022年11月17日
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Gridea.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

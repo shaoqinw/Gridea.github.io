@@ -1,0 +1,191 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>2022年11月17日 | Gridea</title>
+<link rel="shortcut icon" href="https://Gridea.github.io/favicon.ico?v=1711331514699">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Gridea.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="2022年11月17日 | Gridea - Atom Feed" href="https://Gridea.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="1、EDA
+安谋：5年sp推进中
+沐曦：GPGPU送测，通过项目置换
+隧源：开始测试，上海地区已经没有机器，时延挑战
+天数：GPGPU送测，通过项目置换
+smic：
+新芯：ROI测算，计划杭州call high。
+榕铭微：确定采用云托付+公..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Gridea.github.io">
+  <img class="avatar" src="https://Gridea.github.io/images/avatar.png?v=1711331514699" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              2022年11月17日
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-11-17
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>1、EDA<br>
+安谋：5年sp推进中<br>
+沐曦：GPGPU送测，通过项目置换<br>
+隧源：开始测试，上海地区已经没有机器，时延挑战<br>
+天数：GPGPU送测，通过项目置换<br>
+smic：<br>
+新芯：ROI测算，计划杭州call high。<br>
+榕铭微：确定采用云托付+公共云的混合云方案</p>
+<p>2、浙分<br>
+一知：数字人，2080TI，显存不够，目前只能跑一路，需要研发看看能否缩小点显存，提升性价比，预计折扣2折<br>
+同花顺：17号开始推出业务，预留168张A10，周一开通<br>
+浙能：CAE仿真，sccg5s，低价冲<br>
+酷家乐：1000台（本周确定方案），3000台（下周去聊）</p>
+<p>3、HPC<br>
+远景：测试进行中，性能可以，需要前线摸一下客户的情况。避免我们性能太高，价格也高了<br>
+三一：传言并行涨价，客户一直在撩我们，但是又不决策<br>
+BGP：EHPC完成部署，客户在安装软件。</p>
+<p>4、分布式云<br>
+正泰安能明年有机会<br>
+人民医院的BTE离职了</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://Gridea.github.io/post/hello-gridea/">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://Gridea.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

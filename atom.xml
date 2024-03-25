@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Gridea.github.io</id>
+    <title>Gridea</title>
+    <updated>2024-03-25T01:53:33.808Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Gridea.github.io"/>
+    <link rel="self" href="https://Gridea.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://Gridea.github.io/images/avatar.png</logo>
+    <icon>https://Gridea.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[0126]]></title>
+        <id>https://Gridea.github.io/post/0126/</id>
+        <link href="https://Gridea.github.io/post/0126/">
+        </link>
+        <updated>2024-01-26T05:57:52.000Z</updated>
+        <content type="html"><![CDATA[<p>EDA<br>
+榕铭微开始环境搭建，目标是全量上云<br>
+景略云盒项目成本挑战过大，可能会丢，还在算一些附加成本项<br>
+隧源测试完成了，现在客户这边还没向上汇报，后面怎么做需要BTE考虑下<br>
+ARM的项目基本确定，如果腾讯就那么低的折扣，反正也防不住，就放进来（弹性），我们不打折了</p>
+<p>CAE<br>
+Altair的工作推进，宣传稿、PR采购、大会宣讲（3、9月）<br>
+StarCCM+的按量lic，文档反馈给了BMW，后面跟一下进展<br>
+上汽送hpc8ae的事情前线进行操作</p>
+<p>其他<br>
+酷家乐的ehpc-api对接中，IAAS的事情，等a评审完之后再说<br>
+煊云：u实例测试，预计年后对API，2-3万core<br>
+同花顺的A10释放了，现在主要业务在线下，后续节奏要跟一下<br>
+哈啰准备按量打到包月的32折，之后就不往下走了，已经开始做鲲鹏配置<br>
+物探：专属云的基线，1096</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Altair]]></title>
+        <id>https://Gridea.github.io/post/altair/</id>
+        <link href="https://Gridea.github.io/post/altair/">
+        </link>
+        <updated>2024-01-23T02:12:13.000Z</updated>
+        <content type="html"><![CDATA[<p>1、altair one 一体机，价格已经确定，2月26日周发布</p>
+<p>2、PBS：12700 最多4 sockets 一年。on demad 12700<em>1.5/365/24=2.19元/h，需要采购进一步聊价格，目前占比在20%，希望谈到8%左右，即：2.19元/h</em>8/20=0.87元/h<br>
+POC测试license：临时申请</p>
+<p><strong>3、Altair future industry 3月 AI和所有领域的结合</strong></p>
+<p>4、9月Altair峰会，需要市场部确认费用和赞助，千人规模，主会场演讲嘉宾，吉利研究院院长等</p>
+<p>5、</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[哈啰SP交流]]></title>
+        <id>https://Gridea.github.io/post/ha-luo-sp-jiao-liu/</id>
+        <link href="https://Gridea.github.io/post/ha-luo-sp-jiao-liu/">
+        </link>
+        <updated>2024-01-09T02:32:42.000Z</updated>
+        <content type="html"><![CDATA[<p>1、预算系统、成本分摊系统，精确反映成本情况</p>
+<p>预算系统 vs 实际账单的差异，SP和包月的折扣不同<br>
+块存储的账单独立体现，账单校准出现问题</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1229]]></title>
+        <id>https://Gridea.github.io/post/1229/</id>
+        <link href="https://Gridea.github.io/post/1229/">
+        </link>
+        <updated>2023-12-29T06:08:49.000Z</updated>
+        <content type="html"><![CDATA[<p>1、arm中国：aep机器的盘点；mmce的引入<br>
+2、隧源：1天完成了EHPC混合云开通，又没有资源……<br>
+3、博瑞晶芯</p>
+<p>4、泛亚：Altair接了<br>
+5、远景：1、EHPC，存储价格的问题<br>
+6、BGP：cpfs输出，重新做基线和rio<br>
+7、西门子的按量付费，节后要一起见客户</p>
+<p>8、VU9P</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1222]]></title>
+        <id>https://Gridea.github.io/post/1222/</id>
+        <link href="https://Gridea.github.io/post/1222/">
+        </link>
+        <updated>2023-12-22T06:28:03.000Z</updated>
+        <content type="html"><![CDATA[<p>1、arm中国开标，销售没有控住标，有飘了的风险<br>
+2、远景主要问题是cpfs太贵了，比AWS都贵，现在还在沟通中<br>
+3、酷家乐：spot，火山1.4分，2分+，节后15万core左右///长期8厘，1分不知道是否能谈。主站腾讯，2000万一年，还在攻坚中<br>
+4、隧源：拉线还没搞定，估计一月开始上，400台r7.16x<br>
+5、BGP：专属云CPFS同意输出，要算成本，估计要卷</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[悠跑交流]]></title>
+        <id>https://Gridea.github.io/post/you-pao-jiao-liu/</id>
+        <link href="https://Gridea.github.io/post/you-pao-jiao-liu/">
+        </link>
+        <updated>2023-12-15T06:36:53.000Z</updated>
+        <content type="html"><![CDATA[<p>无影的需求：<br>
+1、用户不应该有个软件中心，应该是管理员确定好的：资源管理器、文本编辑器、根据cad/CAE 区分，不同学科分不同的软件<br>
+2、CPU：3.0主频，内存：300-400G内存，A40*1,30人登录<br>
+3、显存软隔离，桌面虚拟化不要设置上限，买一台宿主机的话可以自己做隔离。<br>
+4、</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[12月8日]]></title>
+        <id>https://Gridea.github.io/post/12-yue-8-ri/</id>
+        <link href="https://Gridea.github.io/post/12-yue-8-ri/">
+        </link>
+        <updated>2023-12-08T06:05:13.000Z</updated>
+        <content type="html"><![CDATA[<p>ARM中国：故障影响。长期锁定资源PK腾讯，估计又要被玩。<br>
+浙能：sccg5s，客户反馈太贵了，还在掰扯中<br>
+同花顺：A10三年25折基本能接受，下周继续突破：A10的数量和节奏（近期、远期），倚天的llama交流<br>
+芯动：可能有希望，需要继续聊<br>
+隧源：云上常规200<sub>300，高峰400</sub>500，r7.16xlarge，1月</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年12月1日]]></title>
+        <id>https://Gridea.github.io/post/2022-nian-12-yue-1-ri/</id>
+        <link href="https://Gridea.github.io/post/2022-nian-12-yue-1-ri/">
+        </link>
+        <updated>2023-12-01T05:52:43.000Z</updated>
+        <content type="html"><![CDATA[<p>1、EDA<br>
+安谋：12月的高峰需求可能顶不住，6号要上量，成都的搬迁要2周。<br>
+沐曦：GPGPU送测，通过项目置换，基本可以操作，。<br>
+隧源：开始测试，上海地区已经没有机器，上海100G端口没有了，要绕行，增加1ms的时延<br>
+smic：摸排，客户OPC业务10wcore+，还有一个仿真业务2万core，目前仿真业务有进入可能，前期。<br>
+新芯：杭州call high，长存也要求报价，明年应该有机会。<br>
+榕铭微：测试进行中，性能很好<br>
+忆芯科技：报价中，20台c7，2T nas</p>
+<p>2、浙分<br>
+同花顺：说是1年要1万张A10，但是现在节奏还没<br>
+浙能：CAE仿真，sccg5s，低价冲，CBM不回消息了<br>
+酷家乐：EHPC serverless的去聊了，需要prd和研发看看方案</p>
+<p>3、HPC<br>
+远景：性能可以，icelake算是可以入门，milan速度太慢。<br>
+三一：沟通完，估计1月poc，目前并行报价低于我们<br>
+BGP：EHPC完成部署，客户反馈效率较原线下有提升</p>
+<p>4、分布式云<br>
+BGP报价<br>
+中国邮政物流公司报价</p>
+<p>5、风险<br>
+哈啰的大数据会上火山云，已经开始实质行动，BTE不允许说。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ARM中国讨论]]></title>
+        <id>https://Gridea.github.io/post/arm-zhong-guo-tao-lun/</id>
+        <link href="https://Gridea.github.io/post/arm-zhong-guo-tao-lun/">
+        </link>
+        <updated>2023-11-21T03:04:20.000Z</updated>
+        <content type="html"><![CDATA[<p>明年货下半年会有回暖<br>
+4个市场：infra（PTG等，网络设备）、carying（mobile）、automotive（自动驾驶）、IOT<br>
+product：ARM IP（99%以上可以售卖到中国）、CPU、NPU投入、物理IP库（28nm以上成熟工艺国内有大规模生产能力）、方案<br>
+倚天是否会外售？</p>
+<p>资源需求：<br>
+本周：4500core：北京，已报备<br>
+下周：增加500core：北京，有资源<br>
+12月4日：增加到7800core-8000core：北京，125台，库存满足（ebmre7p）<br>
+12月11日-12月24日：增加到13500core，增加部分需要在成都。成都增加（13500-8000）/64约=90台<br>
+12月25日下落到3500core用到一月第一周<br>
+1月8日下落到1500</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年11月17日]]></title>
+        <id>https://Gridea.github.io/post/2022-nian-11-yue-17-ri/</id>
+        <link href="https://Gridea.github.io/post/2022-nian-11-yue-17-ri/">
+        </link>
+        <updated>2023-11-17T06:01:36.000Z</updated>
+        <content type="html"><![CDATA[<p>1、EDA<br>
+安谋：5年sp推进中<br>
+沐曦：GPGPU送测，通过项目置换<br>
+隧源：开始测试，上海地区已经没有机器，时延挑战<br>
+天数：GPGPU送测，通过项目置换<br>
+smic：<br>
+新芯：ROI测算，计划杭州call high。<br>
+榕铭微：确定采用云托付+公共云的混合云方案</p>
+<p>2、浙分<br>
+一知：数字人，2080TI，显存不够，目前只能跑一路，需要研发看看能否缩小点显存，提升性价比，预计折扣2折<br>
+同花顺：17号开始推出业务，预留168张A10，周一开通<br>
+浙能：CAE仿真，sccg5s，低价冲<br>
+酷家乐：1000台（本周确定方案），3000台（下周去聊）</p>
+<p>3、HPC<br>
+远景：测试进行中，性能可以，需要前线摸一下客户的情况。避免我们性能太高，价格也高了<br>
+三一：传言并行涨价，客户一直在撩我们，但是又不决策<br>
+BGP：EHPC完成部署，客户在安装软件。</p>
+<p>4、分布式云<br>
+正泰安能明年有机会<br>
+人民医院的BTE离职了</p>
+]]></content>
+    </entry>
+</feed>
